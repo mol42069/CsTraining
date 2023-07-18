@@ -27,7 +27,7 @@ namespace csaccounting
 
         private void textBox1_TextChanged(object sender, EventArgs e)                           // USERNAME
         {
-            this.Username = UsernameEntry.Text;
+            this.Username = UsernameEntry.Text;     //lol
         }
 
         private void label1_Click(object sender, EventArgs e)

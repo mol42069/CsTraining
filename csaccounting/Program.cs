@@ -7,6 +7,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+//BRUH
+
 namespace csaccounting
 {
     internal static class Program
@@ -33,7 +35,7 @@ namespace csaccounting
         }
 
         public void NewDebit(Debit da) {
-            this.da = this.da.Concat(new Debit [] { da }).ToArray();
+            this.da = this.da.Concat(new Debit[] { da }).ToArray();
             SaveToFile();
             return;
         }
@@ -64,16 +66,16 @@ namespace csaccounting
 
         public Debit GetDebAcc(string username, int password) {
             foreach (Debit acc in da) {
-                if (username.Equals(acc.UserName)&& password == acc.password) {
+                if (username.Equals(acc.UserName) && password == acc.password) {
                     return acc;
                 }
             }
             return null;
         }
         public bool DebitAccountXsts(string username) {
-            
-            foreach(Debit debacc in da) {
-                if (username.Equals(debacc.UserName)) { 
+
+            foreach (Debit debacc in da) {
+                if (username.Equals(debacc.UserName)) {
                     return true;
                 }
             }
@@ -91,6 +93,9 @@ namespace csaccounting
             }
             return false;
 
+        }
+        private void lostTry() {
+            return;
         }
 
         public bool Login(string username, int password) {

@@ -52,7 +52,7 @@
             // 
             // DepositButton
             // 
-            this.DepositButton.Location = new System.Drawing.Point(84, 165);
+            this.DepositButton.Location = new System.Drawing.Point(84, 139);
             this.DepositButton.Name = "DepositButton";
             this.DepositButton.Size = new System.Drawing.Size(192, 58);
             this.DepositButton.TabIndex = 2;
